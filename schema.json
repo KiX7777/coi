@@ -1,0 +1,31 @@
+{
+  "name": "Product Features Section",
+  "settings": [],
+  "presets": [],
+  "blocks": [
+    {
+      "type": "product-feature",
+      "name": "Product Feature",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Icon Image",
+          "id": "icon",
+          "info": "Select an icon image for the product feature."
+        },
+        {
+          "type": "text",
+          "label": "Title",
+          "id": "title",
+          "info": "Enter the title for the product feature."
+        },
+        {
+          "type": "textarea",
+          "label": "Description",
+          "id": "description",
+          "info": "Enter the description for the product feature."
+        }
+      ]
+    }
+  ]
+}
